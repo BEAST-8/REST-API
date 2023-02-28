@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ApiController {
     @RequestMapping("/")
     public String getName() {
-        public String yourName = "Yuvan Sankar";
+        public String yourName = "Beast";
         return "Your Name is " + yourName + "!";
     }
 }
